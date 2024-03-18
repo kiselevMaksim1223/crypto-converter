@@ -63,8 +63,9 @@ export const CryptoConverter = () => {
 	return (
 		<Card
 			bg={'brand.card'}
-			opacity={0.9}
+			opacity={0.95}
 			p={6}
+			boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'}
 		>
 			<CardBody
 				display={'flex'}
