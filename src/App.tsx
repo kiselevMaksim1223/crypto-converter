@@ -1,8 +1,12 @@
-import { Container, Flex, Heading, VStack } from '@chakra-ui/react'
+import { Container, Flex, Heading, Progress, VStack } from '@chakra-ui/react'
 
 import { CryptoConverter } from '@components/CryptoConverter/CryptoConverter'
 
+import { useAppState } from '@store/appStore'
+
 function App() {
+	const isLoading = useAppState(state => state.isLoading)
+
 	return (
 		<VStack>
 			<Container maxW={'1200px'}>
@@ -25,6 +29,15 @@ function App() {
 					<CryptoConverter />
 				</Flex>
 			</Container>
+
+			{isLoading && (
+				<Progress
+					size='xs'
+					isIndeterminate
+					w={'100%'}
+					position={'absolute'}
+				/>
+			)}
 		</VStack>
 	)
 }
