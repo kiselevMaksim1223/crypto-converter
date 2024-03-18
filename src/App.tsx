@@ -1,5 +1,7 @@
 import { Container, Flex, Heading, VStack } from '@chakra-ui/react'
 
+import { CryptoConverter } from '@components/CryptoConverter/CryptoConverter'
+
 function App() {
 	return (
 		<VStack>
@@ -19,6 +21,8 @@ function App() {
 					>
 						Convert your crypto currency in real time
 					</Heading>
+
+					<CryptoConverter />
 				</Flex>
 			</Container>
 		</VStack>

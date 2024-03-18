@@ -15,7 +15,7 @@ import type { CurrencyTypes } from 'types/cryptoConvert.types'
 
 import { CurrencySelector } from './CurrencySelector'
 
-export const CryptoExchange = () => {
+export const CryptoConverter = () => {
 	const fromCurrency = useConverterState(state => state.fromCurrency)
 	const toCurrency = useConverterState(state => state.toCurrency)
 	const setFromCurrency = useConverterState(state => state.setFromCurrency)
