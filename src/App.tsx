@@ -19,8 +19,8 @@ function App() {
 				>
 					<Heading
 						as={'h1'}
-						size={'4xl'}
-						width={'50%'}
+						size={{ base: '2xl', xl: '4xl' }}
+						width={{ md: '50%' }}
 						lineHeight={'130%'}
 					>
 						Convert your crypto currency in real time
