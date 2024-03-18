@@ -15,7 +15,7 @@ function App() {
 					gap={12}
 					textAlign={'center'}
 					alignItems={'center'}
-					p={8}
+					pt={8}
 				>
 					<Heading
 						as={'h1'}

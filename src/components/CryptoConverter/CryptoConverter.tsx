@@ -64,12 +64,12 @@ export const CryptoConverter = () => {
 		<Card
 			bg={'brand.card'}
 			opacity={0.95}
-			p={6}
+			p={{ base: 1, md: 6 }}
 			boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'}
 		>
 			<CardBody
 				display={'flex'}
-				gap={4}
+				gap={{ md: 4 }}
 				alignItems={'center'}
 			>
 				<CurrencySelector
