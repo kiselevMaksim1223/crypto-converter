@@ -51,7 +51,7 @@ Before running the application, make sure you have the following dependencies in
 
    ```
 
-4. Also if you want to start app locally you need to get free API key from [CoinApi](https://www.coinapi.io/) and add it to "X-CoinAPI-Key" header in 'axios.ts' in `config` folder.
+4. Also if you want to start app locally you need to get free API key from [CoinApi](https://www.coinapi.io/) and add it to "X-CoinAPI-Key" header in 'axios.ts' in `config` folder. Just use deployed version of the project to see how it works :).
 
 ## Running the Application
 
