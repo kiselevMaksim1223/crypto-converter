@@ -18,7 +18,7 @@ This is a simple crypto converter. It allows you to convert 3 crypto currencies 
 ## Deployment
 
 Deployed with Vercel.
-You can find it here: [crypto-converter] (https://crypto-converter-rho.vercel.app/)
+You can find it here: [crypto-converter](https://crypto-converter-rho.vercel.app/)
 
 ## Local Setup
 
