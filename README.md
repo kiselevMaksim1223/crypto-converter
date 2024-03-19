@@ -6,6 +6,7 @@ This is a simple crypto converter. It allows you to convert 3 crypto currencies 
 
 - TypeScript
 - React (Vite)
+- React Query
 - Chakra UI
 - Zustand
 - Axios
